@@ -1,0 +1,21 @@
+﻿<h1>Entrées</h1>
+<p>Radis crème, xo<span>12</span></p>
+<p>Navets, raisins noirs, pacanes<span>12</span></p>
+<p>Fumet de flétan aux capucines<span>12</span></p>
+<p>Brocolis, rapinis, brandade<span>13</span></p>
+<p>Coupes de porc, jus aux piments fermentés<span>12</span></p>
+<p>Poulet plancha, jus de viande<span>14</span></p>
+<h1>Plats</h1>
+<p>Matsutake, chou plat<span>21</span></p>
+<p>Champignons chou-fleur aux choux-fleurs<span>21</span></p>
+<p>Doré de lac, panais, cardon<span>23</span></p>
+<p>Flétan au céleri, ail des bois<span>24</span></p>
+<h1>À côté</h1>
+<p>Salade verte<span>7</span></p>
+<p>Frites mayonnaise<span>7</span></p>
+<p>Pommes de terre au beurre<span>5</span></p>
+<h1>Desserts</h1>
+<p>Melons, cerises de terre, coriandre<span>8</span></p>
+<p>Gateau à la courgette<span>9</span></p>
+<p>Mousse au chocolat, pacane<span>10</span></p>
+

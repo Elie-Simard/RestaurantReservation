@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'lundisFonts';
+
+    src: url(fonts/6f8d1983-4d34-4fa4-9110-988f6c495757.woff) format('woff'),
+        url(/reservation/fonts/b56b944e-bbe0-4450-a241-de2125d3e682.woff) format('woff'),
+        url(/reservation/fonts/c5749443-93da-4592-b794-42f28d62ef72.woff) format('woff'),
+        url(/reservation/fonts/HelveticaLTW04-Roman.woff2) format('woff2'),
+        url(/reservation/fonts/STBOO2waD2LpX45SXYjQBfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url(/reservation/img/fad911_9af52388d3724fd688fc54b200288ca7~mv2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: auto;
+    padding-top: 30px;
+    font-family: 'lundisFonts', Arial, sans-serif;
+    color: #150000;
+}
+
+#indexBody {
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    align-self: center;
+    justify-content: center;
+}
+
+h1,
+p,
+label,
+select,
+input,
+textarea,
+table {
+    margin-left: 25%;
+}
+
+/* Style des liens */
+a {
+    text-align: center;
+    display: block;
+    color: #111112;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #83e6ff;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #f3acac;
+}
+
+p {
+    padding-bottom: 3px;
+}
+
+p span {
+    float: right;
+    margin-right: 25%;
+    color: #454343;
+    font-weight: bold;
+}
+
+span {
+    margin-left: 15px;
+    color: #ff4917;
+}
+
+
+label {
+    margin-left: 15px;
+}
+
+select {
+    margin: 5px 0 15px 15px;
+}
+
+input {
+    margin: 5px 15px 0 15px;
+}
+
+input[type=text] {
+    width: 220px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+    color: #999;
+}
+
+input.small {
+    width: 30px;
+    padding: 0;
+    text-align: center;
+}
+
+textarea {
+    width: 710px;
+    height: 300px;
+    max-width: 720px;
+    margin: 5px 15px 5px 15px;
+    padding: 3px;
+    color: #999;
+}
+
+input[type=submit] {
+    background: #ff4917;
+    margin: 10px 0 15px 15px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #9e2504;
+}
+
+table {
+    background: none;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid #1c1c24;
+    font-size: 12px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+
+/* ---------------------------IDS (except #indexBody)--------------------------------------------------*/
+
+#trIndex,
+#trIndexLabel,
+#tdIndex,
+#tableIndex {
+    background: none;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    justify-content: center;
+}
+
+#trIndexLabel {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#jourRes,
+#infoSup {
+    color: #150000;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+/* lien accueil */
+#menu-links {
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+
+#menu-links span {
+    margin-right: 20px;
+    display: inline;
+    font-size: large;
+    margin-top: none;
+    margin-left: auto;
+}
+
+#menu-links :hover {
+    color: #f3acac;
+}
+
+#logo {
+    min-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    size: 10px;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+#adresse {
+    text-align: center;
+    bottom: 0;
+}

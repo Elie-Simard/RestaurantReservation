@@ -1,0 +1,5 @@
+AuthName "Connexion au back office"
+AuthType Basic
+AuthUserFile "/Applications/XAMPP/xamppfiles/htdocs/reservation/backoffice/.htpasswd"
+Require valid-user
+
