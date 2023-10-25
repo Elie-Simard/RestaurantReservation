@@ -173,18 +173,18 @@ if (!empty($_POST)) {
             </tr>
         </table>
         <br><br>
-        <h1 id=infoSup>Informations complémentaires</h1>
+
         <?php if (isset($erreur_nom)) //affichage des messages d'erreurs...
                     echo '<span>' . $erreur_nom . '</span><br />'; ?>
         <?php if (isset($erreur_email))
             echo '<span>' . $erreur_email . '</span><br />'; ?>
         <!-- $NOM ENTRY----------------------------------------------------------------------->
         <label for="nom">Nom</label><br />
-        <input type="text" name="nom" placeholder="Exemple : Jean Dupont" value="<?php if (isset($nom))
+        <input type="text" name="nom" placeholder=" Exemple Tremblay" value="<?php if (isset($nom))
             echo $nom; ?>" /><br />
         <!-- $EMAIL ENTRY----------------------------------------------------------------------->
         <label for="email">Courriel</label><br />
-        <input type="text" name="email" placeholder="Exemple : jeandupont@gmail.com" value="<?php if (isset($email))
+        <input type="text" name="email" placeholder="exemple@gmail.com" value="<?php if (isset($email))
             echo $email; ?>" /><br />
         <input type="submit" value="RÉSERVER" />
     </form>
