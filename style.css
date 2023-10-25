@@ -201,3 +201,40 @@ td {
     text-align: center;
     bottom: 0;
 }
+
+/* Style the date input field */
+input[type="date"] {
+    padding: 8px;
+    /* Adjust the padding to change the input field's size */
+    border: 1px solid #ccc;
+    /* Add a border */
+    border-radius: 4px;
+    /* Rounded corners */
+    background-color: #f2f2f2;
+    /* Background color */
+    color: #333;
+    /* Text color */
+}
+
+/* Style the date input field when it's in focus (clicked) */
+input[type="date"]:focus {
+    outline: none;
+    /* Remove the default focus outline */
+    border: 1px solid #007BFF;
+    /* Change border color on focus */
+}
+
+/* Style the select menus */
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Style select menus when they are focused */
+select:focus {
+    outline: none;
+    border: 1px solid #007BFF;
+}
