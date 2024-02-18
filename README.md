@@ -1,6 +1,5 @@
 # Projet clone d'un site web de restaurant avec outil de réservation
 
-****Le site a été retiré en ligne par Heroku, je le remettrai prochainement.****
 
 ## Démonstration
 
@@ -26,3 +25,4 @@ Envoie automatiquement un email de confirmation aux clients une fois leur réser
 - Base de Données : MySQL
 - Frontend : HTML, CSS, JavaScript (pour les éléments dynamiques)
 
+****Le site a été retiré en ligne par Heroku, je le remettrai prochainement.****
