@@ -1,36 +1,28 @@
-Projet clone d'un site web de restaurant auquel on ajoute un outil de réservation.
+# Projet clone d'un site web de restaurant avec outil de réservation
 
-Démonstration:
+****Le site a été retiré en ligne par Heroku, je le remettrai prochainement.****
 
-Pour voir le système de réservation en action, regardez cette vidéo de démonstration : 
+## Démonstration
 
-https://youtu.be/H0g-RFFdGAs
+Pour voir le système de réservation en action, regardez cette vidéo de démonstration : [Vidéo de démonstration](https://youtu.be/H0g-RFFdGAs)
 
+## Fonctionnalités
 
-Ce système de réservation pour restaurants, développé en PHP, permet de gérer les réservations de clients dans une base de données. Il offre la possibilité de prendre des informations de réservation, de modifier le menu et d'envoyer des emails de confirmation aux clients.
+### Gestion des réservations
 
-Fonctionnalités
+Permet aux clients de réserver une table en ligne. Les informations sont stockées dans une base de données pour une gestion facile.
 
-Gestion des réservations : Permet aux clients de réserver une table en ligne. Les informations sont stockées dans une base de données pour une gestion facile.
-Modification du menu : Offre une interface pour modifier les éléments du menu du restaurant, permettant une mise à jour rapide et facile des articles disponibles.
-Confirmation par email : Envoie automatiquement un email de confirmation aux clients une fois leur réservation enregistrée.
-Technologies Utilisées
+### Modification du menu
 
-Backend : PHP
-Base de Données : MySQL
-Frontend : HTML, CSS, JavaScript (pour les éléments dynamiques)
-Installation
+Offre une interface pour modifier les éléments du menu du restaurant, permettant une mise à jour rapide et facile des articles disponibles.
 
-Pour mettre en place ce système de réservation sur votre serveur, suivez ces étapes :
+### Confirmation par email
 
-Clonez le dépôt sur votre serveur local ou hébergé.
-Importez le fichier .sql dans votre système de gestion de base de données pour créer la structure nécessaire.
-Configurez votre serveur pour pointer vers le dossier public du projet.
-Adaptez le fichier de configuration pour correspondre à vos paramètres de base de données.
-Configuration
+Envoie automatiquement un email de confirmation aux clients une fois leur réservation enregistrée.
 
-Assurez-vous de mettre à jour le fichier config.php avec vos informations de connexion à la base de données :
+## Technologies Utilisées
 
-
-Accédez à l'interface principale via votre navigateur pour commencer à gérer les réservations. Utilisez l'interface d'administration pour mettre à jour le menu et consulter les réservations en cours.
+- Backend : PHP
+- Base de Données : MySQL
+- Frontend : HTML, CSS, JavaScript (pour les éléments dynamiques)
 
