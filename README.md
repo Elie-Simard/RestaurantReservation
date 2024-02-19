@@ -3,7 +3,7 @@
 
 ## Démonstration
 
-Pour voir le système de réservation en action, regardez cette vidéo de démonstration : [Vidéo de démonstration](https://youtu.be/H0g-RFFdGAs)
+Pour voir le système de réservation en action, regardez cette [vidéo de démonstration](https://youtu.be/H0g-RFFdGAs)
 
 ## Fonctionnalités
 
