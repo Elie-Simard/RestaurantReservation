@@ -1,4 +1,4 @@
-# Projet clone d'un site web de restaurant avec outil de réservation
+# Projet site web de restaurant avec outil de réservation
 
 
 ## Démonstration
